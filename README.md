@@ -158,7 +158,7 @@ https://github.com/ronakpareekcloud/aws-ec2-web-server-project
 
 # 📫 Contact
 
-📧 Email: **ronakpareek@zohomail.in**
+📧 Email: **ronakpareekcloud@gmail.com**
 
 💻 GitHub: **https://github.com/ronakpareekcloud**
 
