@@ -1,291 +1,173 @@
-# 🚀 AWS EC2 Static Website Hosting
+<h1 align="center">Hi 👋, I'm Ronak Pareek</h1>
+
+<h3 align="center">
+Cloud Engineer | AWS | Linux | DevOps
+</h3>
 
 <p align="center">
 
-![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws)
-![Amazon Linux](https://img.shields.io/badge/Linux-Amazon%20Linux%202023-yellow?style=for-the-badge&logo=linux)
-![Apache](https://img.shields.io/badge/Apache-HTTP_Server-D22128?style=for-the-badge&logo=apache)
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
-![HTML5](https://img.shields.io/badge/HTML5-Static_Website-E34F26?style=for-the-badge&logo=html5)
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=900&lines=Welcome+to+my+GitHub+Profile!;Cloud+Engineer+%7C+AWS+%7C+Linux+%7C+DevOps;Building+Real+Cloud+Projects;Always+Learning+New+Technologies"/>
 
 </p>
 
 ---
 
-# 📖 Project Overview
+# 🚀 About Me
 
-This project demonstrates the deployment of a static HTML website on **Amazon EC2** using **Amazon Linux 2023** and **Apache HTTP Server**.
+🎓 Bachelor's Degree in Computer Applications (BCA)
 
-This project helped me gain hands-on experience with:
+🎓 Master's Degree in Computer Applications (MCA)
+
+☁️ Trained in Cloud Computing & DevOps
+
+🐧 Hands-on Experience with Linux Administration
+
+☁️ Hands-on Experience with AWS Cloud
+
+🚀 Passionate about Cloud Infrastructure & Automation
+
+💼 Open to Cloud Engineer | AWS Cloud Engineer | DevOps Engineer Roles
+
+---
+
+# 🌐 Connect With Me
+
+<p>
+
+<a href="mailto:ronakpareek@zohomail.in">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/ronakpareekcloud">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+---
+
+# 💻 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=aws,linux,git,github,bash,docker,terraform,jenkins,html,css,vscode"/>
+
+</p>
+
+---
+
+# ☁️ Cloud Skills
 
 - Amazon EC2
+- IAM
+- VPC
 - Security Groups
-- SSH Connectivity
-- Linux Administration
-- Apache HTTP Server
-- Git & GitHub
-- Website Deployment
-
----
-
-# ✨ Features
-
-- ✅ Launch Amazon EC2 Instance
-- ✅ Configure Security Groups
-- ✅ Secure SSH Login
-- ✅ Install Apache HTTP Server
-- ✅ Deploy Static HTML Website
-- ✅ Git Version Control
-- ✅ GitHub Repository
-
----
-
-# 🛠️ Technologies Used
-
-- Amazon EC2
-- Amazon Linux 2023
-- Apache HTTP Server
-- HTML5
-- Linux
-- Git
-- GitHub
-- SSH
-
----
-
-# 🏗️ Architecture
-
-```text
-               User
-                 │
-           Web Browser
-                 │
-          Public IPv4 Address
-                 │
-        Amazon EC2 (t3.micro)
-        Amazon Linux 2023
-                 │
-        Apache HTTP Server
-                 │
-         /var/www/html
-                 │
-            index.html
-```
-
----
-
-# 📂 Project Structure
-
-```text
-aws-ec2-web-server-project
-│
-├── index.html
-├── README.md
-└── screenshots
-    ├── ec2-dashboard.png
-    ├── launch-instance.png
-    ├── key-pair.png
-    ├── security-group.png
-    ├── ec2-running.png
-    ├── ssh-connect.png
-    ├── ssh-login.png
-    ├── system-update.png
-    ├── apache-running.png
-    ├── website-output.png
-    └── github-repository.png
-```
-
----
-
-# ⚙️ Deployment Steps
-
-### 1️⃣ Launch EC2 Instance
-
-- Amazon Linux 2023
-- t3.micro
-- Create or Select Key Pair
-
----
-
-### 2️⃣ Configure Security Group
-
-Allow:
-
-- SSH (Port 22)
-- HTTP (Port 80)
-
----
-
-### 3️⃣ Connect Using SSH
-
-```bash
-ssh -i "ronak-key.pem" ec2-user@Public-IP
-```
-
----
-
-### 4️⃣ Update System
-
-```bash
-sudo dnf update -y
-```
-
----
-
-### 5️⃣ Install Apache
-
-```bash
-sudo dnf install httpd -y
-```
-
----
-
-### 6️⃣ Enable Apache
-
-```bash
-sudo systemctl start httpd
-sudo systemctl enable httpd
-```
-
----
-
-### 7️⃣ Deploy Website
-
-```bash
-sudo cp index.html /var/www/html/
-```
-
----
-
-# 💻 Commands Used
-
-```bash
-sudo dnf update -y
-sudo dnf install httpd -y
-sudo systemctl start httpd
-sudo systemctl enable httpd
-sudo systemctl status httpd
-sudo cp index.html /var/www/html/
-```
-
----
-
-# 📸 Project Screenshots
-
-## AWS EC2 Dashboard
-
-![](screenshots/ec2-dashboard.png)
-
----
-
-## Launch EC2 Instance
-
-![](screenshots/launch-instance.png)
-
----
-
-## Configure Key Pair
-
-![](screenshots/key-pair.png)
-
----
-
-## Configure Security Group
-
-![](screenshots/security-group.png)
-
----
-
-## EC2 Instance Running
-
-![](screenshots/ec2-running.png)
-
----
-
-## SSH Connection
-
-![](screenshots/ssh-connect.png)
-
----
-
-## SSH Login
-
-![](screenshots/ssh-login.png)
-
----
-
-## System Update
-
-![](screenshots/system-update.png)
-
----
-
-## Apache HTTP Server Running
-
-![](screenshots/apache-running.png)
-
----
-
-## Live Website
-
-![](screenshots/website-output.png)
-
----
-
-## GitHub Repository
-
-![](screenshots/github-repository.png)
-
----
-
-# 🎯 Skills Demonstrated
-
-- Amazon EC2
-- Linux Administration
 - Apache HTTP Server
 - SSH
+- Linux Administration
 - Git
 - GitHub
-- Static Website Hosting
-- Website Deployment
 
 ---
 
-# 📚 Learning Outcomes
+# 🚀 Featured Project
 
-Through this project, I learned how to:
+## AWS EC2 Static Website Hosting
 
-- Launch and configure an Amazon EC2 instance.
-- Configure Security Groups for secure access.
-- Connect securely using SSH.
-- Install and manage Apache HTTP Server.
-- Deploy a static website.
-- Use Git and GitHub for version control.
+✔ Amazon EC2
 
----
+✔ Amazon Linux 2023
 
-# 🚀 Future Improvements
+✔ Apache HTTP Server
 
-- HTTPS using SSL
-- Custom Domain (Route 53)
-- Load Balancer
-- Auto Scaling
-- CI/CD Pipeline
-- Docker Deployment
+✔ Static Website Deployment
+
+✔ Git Version Control
+
+✔ GitHub Repository
+
+🔗 Repository
+
+https://github.com/ronakpareekcloud/aws-ec2-web-server-project
 
 ---
 
-# 👨‍💻 Author
+# 🏆 GitHub Trophies
 
-**Ronak Pareek**
+<p align="center">
 
-Cloud Computing | AWS | Linux | DevOps
+<img src="https://github-profile-trophy.vercel.app/?username=ronakpareekcloud&theme=algolia&no-frame=true&row=1&column=6"/>
 
-📧 Email: ronakpareekcloud@gmail.com
-
-🌐 GitHub: https://github.com/ronakpareekcloud
+</p>
 
 ---
 
-⭐ **If you found this project helpful, please consider giving it a Star!**
+# 🔥 GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=ronakpareekcloud&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ronakpareekcloud&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+
+# 📚 Currently Learning
+
+🐳 Docker
+
+☸ Kubernetes
+
+🏗 Terraform
+
+⚙ Jenkins
+
+🔄 CI/CD
+
+📜 Shell Scripting
+
+📊 Monitoring
+
+☁ AWS Advanced Services
+
+---
+
+# 🎯 Career Objective
+
+I am an aspiring Cloud Engineer passionate about designing, deploying and managing cloud infrastructure using AWS and Linux. I enjoy building real-world cloud projects and continuously learning modern DevOps technologies.
+
+---
+
+# 📌 Featured Repository
+
+⭐ AWS EC2 Static Website Hosting
+
+https://github.com/ronakpareekcloud/aws-ec2-web-server-project
+
+---
+
+# 📫 Contact
+
+📧 Email: **ronakpareek@zohomail.in**
+
+💻 GitHub: **https://github.com/ronakpareekcloud**
+
+---
+
+<h3 align="center">
+
+⭐ Thank You for Visiting My GitHub Profile ⭐
+
+If you like my work, don't forget to ⭐ my repositories!
+
+</h3>
